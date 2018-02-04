@@ -115,6 +115,7 @@ namespace MyShop.Services
                               {
                                   Id = b.Id,
                                   Quantity = b.Quantity,
+                                  Price = p.Price,
                                   ProductName = p.Name,
                                   ImageURL = p.Image
                               }
